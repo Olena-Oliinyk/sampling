@@ -40,30 +40,65 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to identify the key factors contributing to high employee turnover among entry- and lower-level positions within the company. The survey aims to measure employee satisfaction, workplace culture, compensation perceptions, and career growth opportunities in order to guide HR strategies that improve retention.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current and recently departed employees who held entry- or lower-level positions at the company within the past 12 months.
+
+Sampling frame: The company's HR database, which includes employment status, department, tenure, and contact information for both current and former employees.
+
+Sampling units: Individual employees listed in the HR database.
+
+Observational units: The same individuals who respond to the survey.
+
+Sampling strategy: Stratified random sampling. Employees will be stratified by department and employment status (current vs. former) to ensure representation across business areas and turnover categories. Within each stratum, simple random sampling will be used to select participants. This approach ensures balanced data and reduces sampling error compared to a single SRS.
+
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you worked (or did you work) at the company?
+   - Less than 6 months
+   - 6 months to 1 year
+   - 1–3 years
+   - More than 3 years
+2. How satisfied are/were you with your job overall?
+   - Very dissatisfied
+   - Dissatisfied
+   - Neutral
+   - Satisfied
+   - Very satisfied
+3. Please rate your satisfaction with the following aspects of your job:
+   5-point Likert scale from "Very dissatisfied" to "Very satisfied"
+   a) Compensation
+   b) Work-life balance
+   c) Career development opportunities
+   d) Relationship with your manager
+4. What was your primary reason for leaving (or considering leaving) the company?
+   - Compensation
+   - Workload or stress
+   - Limited career growth
+   - Workplace culture
+   - Management or leadership issues
+   - Personal reasons
+   - Other (please specify)
+5. How likely would you be to recommend the company as a good place to work?
+   1 (Not likely) to 5 (Very likely)
+6. How clear do you feel communication is between management and employees?
+   - Very unclear
+   - Somewhat unclear
+   - Neutral
+   - Somewhat clear
+   - Very clear
+7. What one change would most improve your job satisfaction?
+8. Are there specific programs or benefits that would make you more likely to stay at the company?
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +106,60 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type:
+   Cross-sectional, stratified probability sample with a two-stage design.  
+   Sampling units are groups of telephone numbers; final stage units are individuals within selected households.
+
+2. Sample size:  
+   Field sample approximatively 50,000 units; about 24,000 completed questionnaires expected.
+
+3. Target population:
+   All persons 15 years of age and older living in the ten provinces of Canada, excluding full-time residents of institutions.
+
+4. Sampling frame: 
+   Combined landline and cellular telephone number frame derived from the Census, administrative sources, and Statistics Canada’s dwelling frame.  
+   The frame links numbers to household addresses where possible to improve coverage.
+
+5. Survey mode(s): 
+   Dual-mode: Computer-Assisted Telephone Interview (CATI) and secure electronic questionnaire (EQ).  
+   Respondents could choose English or French.
+
+6. Timeline:  
+   Collection period from September 4 to December 28, 2018. Conducted every five years.
+
+7. Response rate:
+   Overall 41.9%.
+
+8. Weights:
+   Each respondent has a person weight (WGHT_PER) representing the number of people in the population they stand for.  
+   Weights adjust for household and person-level selection probabilities and for nonresponse.  
+   Bootstrap replicate weights are provided for variance estimation.  
+   Post-stratification aligns weighted distributions with 2017 Census income and age–sex profiles by province.
+
+9. Data processing:
+   CATI and EQ systems performed real-time range and flow edits. Head office applied additional macro/micro consistency checks and family-relationship verifications.   
+   Edits were done using Statistics Canada’s generalized processing environment (SSPE).
+
+10. Cleaning, imputation:
+    Donor imputation with score matching for item nonresponse and partial records; mean imputation used when no suitable donor existed.  
+    Personal and family income were obtained via record linkage to T1 tax files (81.9% coverage); remaining income values imputed in nine sequential steps.
+
+11. Sources of error:
+    - Sampling error: variance due to probability selection of households and persons.  
+    - Coverage error: households without telephone service or unlinked numbers excluded from frame.  
+    - Nonresponse error: some households and individuals did not respond.  
+    - Measurement error: social desirability and recall bias in self-reports.  
+    - Processing error: coding or editing mistakes (minimized through automation).
+
+12. Limitations, known biases:
+    - Slight under-coverage of non-telephone and hard-to-reach populations remains.  
+    - Nonresponse bias may persist despite weight adjustments.  
+    - Territories and institutional residents are not included, limiting geographic generalization.  
+    - Volunteering and donation behaviour self-reports may be overstated because of social desirability.
+
+13. Link to documentation and sources:
+https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&Id=796234 
+
 ```
 
 ## Rubric
